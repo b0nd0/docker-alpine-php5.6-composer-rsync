@@ -1,4 +1,4 @@
-FROM php:alpine
+FROM php:5.6-alpine
 
 # Update package repository.
 RUN apk update
